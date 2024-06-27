@@ -1,5 +1,7 @@
 ![Build](https://github.com/jproyo/owned-ref-cell/actions/workflows/build.yml/badge.svg)
 
+> NOTE: Experimental Project
+
 # OwnedRefCell
 
 The `OwnedRefCell` struct provides interior mutability similar to `RefCell` but without the lifetime constraints associated with the returned references. It consists of three main components:
