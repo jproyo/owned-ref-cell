@@ -1,0 +1,12 @@
+name: BUILD - Onwed Ref Cell
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build-rust:
+    uses: ./.github/workflows/common-build.yml
+    secrets: inherit

@@ -1,3 +1,5 @@
+![Build](https://github.com/jproyo/owned-ref-cell/actions/workflows/build.yml/badge.svg)
+
 # OwnedRefCell
 
 The `OwnedRefCell` struct provides interior mutability similar to `RefCell` but without the lifetime constraints associated with the returned references. It consists of three main components:
@@ -55,3 +57,9 @@ Same as `RefCell`
 
 You can `borrow` multiple times if there is not `borrow_mut` in same scope.
 
+
+## Run Tests
+
+```bash
+cargo test
+```
